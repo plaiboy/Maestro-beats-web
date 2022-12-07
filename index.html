@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maestro Beats</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,100&family=Source+Sans+Pro:ital,wght@0,700;1,200;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="header">
+
+    <nav>
+        <a href='index.html'><img src="images/logo.jpeg"></a>
+        <div class='nav-links'>
+          <i class="fa fa-times" onclick='hideMenu()'></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick='showMenu()'></i>
+    </nav>
+
+<div class='text-box'>
+    <h1>maestro beats</h1>
+    <p>we offer all solutions to becoming a modern and comprehensive music programmer<br/> Join us and live the experinces </p>
+    <a href="" class='hero-btn'>Learn more</a>
+</div>
+<!-- javascript for toggle menu -->
+    </section>
+    <section  class="beats">
+      <h1>Sample beats available</h1>
+      <p>They range from trap, hiphop local jazz and bongo benga</p>
+
+      <div class='row'>
+        <div class='beats-col'>
+          <h3>Trap</h3>
+          <p>Trap is one of the modern famous genres of music basically belonging to a bigger class of electronic music.
+          rap is characterized by busy hi-hats, heavy sub-bass, gritty, and super rhythmic snares, and deep 808 kick drums. 
+          It employs several layers of monophonic ideas and a melodic accompaniment expressed with synthesizers.
+          </p>
+        </div>
+        <div class='beats-col'>
+        <h3>Hiphop</h3>
+        <p>
+          cultural movement that attained widespread popularity in the 1980s and ’90s;
+          also, the backing music for rap, the musical style incorporating rhythmic and/or 
+          rhyming speech that became the movement’s most lasting and influential art form.
+        </p>
+      </div>
+      <div class='beats-col'>
+        <h3>Jazz</h3>
+            Jazz is a music genre that originated in the African-American communities of New Orleans,
+            Louisiana in the late 19th and early 20th centuries, 
+            with its roots in blues and ragtime. Since the 1920s Jazz Age, it has been 
+            recognized as a major form of musical expression in traditional and popular music.
+            Jazz is characterized by swing and blue notes, complex chords, call and response vocals,
+            polyrhythms and improvisation. Jazz has roots in European harmony and
+          </p>
+        </div>
+      
+      
+        
+
+      </div>
+
+    </section>
+
+    <section class='studio'>
+      <h1>Home studio</h1>
+      <p>We offer home studio development guide</p>
+      <div class='row'>
+        <div  class='studio-col'>
+          <img src='images/piano.jpg'>
+          <div class='layer'>
+            <h3>Piano</h3>
+
+          </div>
+        </div>
+
+          <div  class='studio-col'>
+            <img src='images/drums.jpg'>
+            <div class='layer'>
+              <h3>Drum-set</h3>
+            </div>
+
+            </div>
+            
+            <div  class='studio-col'>
+              <img src='images/speaker.jpg'>
+              <div class='layer'>
+                <h3>Speakers</h3>
+            </div>    
+            </div>
+       
+
+
+        
+      </div>
+
+    </section>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showeMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "200px";
+    }
+  </script>
+
+
+  </body>
+</html>
